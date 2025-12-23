@@ -61,7 +61,7 @@ Verifying alerts against internal activities prevents unnecessary escalation and
 
 ## Task 7 – Conclusion
 **Description:**  
-Summarizes key concepts learned, including SOC roles, alert triage process, and the importance of validating alerts before escalation.
+Summarizes the SOC Fundamentals room, including SOC team responsibilities, the pillars of People, Process, and Technology, and the practical exercise completed as a Level 1 Analyst.
 
 **Evidence Screenshot:**  
 ![Task 7 Conclusion](Task7.png)
