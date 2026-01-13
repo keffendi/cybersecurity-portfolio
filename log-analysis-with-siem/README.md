@@ -5,6 +5,7 @@
 
 As a SOC Level 1 Analyst on shift, I received an alert about a suspicious network connection on port 5678 from the host WIN-105. My task was to investigate the activity using Windows logs in the SIEM and determine whether it was suspicious or required escalation.
 
+![WindowsLogs](WindowsLogs.png)
 
 ### Questions 1 & 2 – Destination IP and Initiating Process
 
@@ -36,5 +37,3 @@ What is the name of the scheduled task that was created on the system?
 I looked at the details from the previous event and checked the Windows logs to find the name of the scheduled task.
 
 ![Office365](Office365.png)
-
-![WindowsLogs](WindowsLogs.png)
