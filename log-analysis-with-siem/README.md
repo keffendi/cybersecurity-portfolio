@@ -53,10 +53,10 @@ As an SOC Level 1 Analyst on shift, I received an alert indicating possible pers
 ### Question 1: Timestamp of Account Creation
 
 **Question:**  
-What was the timestamp of the remote-SSH account creation?
+What was the timestamp of the remote-ssh account creation?
 
 **Investigation approach:**  
-I checked filtered for SSH account creation events to identify exactly when the new user was added.
+I filtered for SSH account creation events to identify exactly when the new user was added.
 
 ![newuser](newuser.png)
 
@@ -66,7 +66,7 @@ I checked filtered for SSH account creation events to identify exactly when the 
 Which user successfully escalated privileges to root prior to the action from the first question?
 
 **Investigation approach:**  
-I filtered the logs for `sudo` events
+I filtered the logs for 'sudo' events
 
 ![jackbrown](jackbrown.png)
 
@@ -76,7 +76,7 @@ I filtered the logs for `sudo` events
 From which IP address did the user from the previous question successfully log in to the system?
 
 **Investigation approach:**  
-I filtered 'jack-brown' 'ssh' to find the source IP address of the successful login.
+I filtered for 'jack-brown' 'ssh' to find the source IP address of the successful login.
 
 ![jackipaddress](jackipaddress.png)
 
@@ -100,6 +100,8 @@ I filtered for 'port' and source='syslog'
 
 ![port](port.png)
 
+
 ---
 
 
+### Task 5 - Web Application Logs
